@@ -39,7 +39,7 @@ class Cars extends React.Component {
                   <img src={car.photoData.seoLinkB} />
                </div>
                <span style={styleSpan}>Model: {car.title}</span>
-               <span style={styleSpan}>Price: {car.USD}</span>
+               <span style={styleSpan}>Price: {car.USD} USD</span>
             </div>
          )
       })
@@ -55,7 +55,7 @@ const styleBlock = {
 const styleSpan = {
    display: "block",
 }
-
+/* 
 ReactDOM.render(
    <>
       <div style={styleBlock}>
@@ -63,5 +63,5 @@ ReactDOM.render(
       </div>
    </>,
    document.getElementById('app')
-)
+) */
 
